@@ -217,13 +217,13 @@ cout<<" *  vehicle No.                 *"<<endl;
 cout<<" *        "<< Veh_NO<<"                *"<<endl;
 cout<<" *                              *"<<endl;
 cout<<" *  day+time :                  *"<<endl;
-cout<<" *  "<<asctime(ti)<<"   *"<<endl;
+cout<<" * "<<asctime(ti)<<" *"<<endl;
 cout<<" *                              *"<<endl;
 cout<<" *  location :                  *"<<endl;
 cout<<" *       "<< location <<"           *"<<endl;
 cout<<" *                              *"<<endl;
 cout<<" *  charges  :                  *"<<endl;
-cout<<" *       "<< charges <<"                   *"<<endl;
+cout<<" *       "<< charges <<"                     *"<<endl;
 cout<<" *                              *"<<endl;
 cout<<" ********************************"<<endl;
 cout<<" *      thanks for coming       *"<<endl;
@@ -385,11 +385,16 @@ do
 	
 	cout<<" ========= do you want to enter again ======== "<<endl;
 	cin>>again;
+	
 }while( again=='y' || again=='Y');
-	
 
-     
-     
-	
 
+
+
+
+
+
+
+
+return 0;	
 }
